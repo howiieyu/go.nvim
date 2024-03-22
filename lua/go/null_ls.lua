@@ -198,7 +198,7 @@ return {
             '--out-format=json',
             '--path-prefix',
             '$ROOT',
-            '$FILENAME',
+            '$DIRNAME',
           }
         end,
         check_exit_code = function(code)
